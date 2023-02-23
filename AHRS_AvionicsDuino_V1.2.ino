@@ -2,24 +2,33 @@
 //                                                 AHRS_Avionicsduino Version 1.2
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
- Copyright (c) 2023 AvionicsDuino - benjamin.fremond@avionicsduino.com
-  
-    AHRS_Avionicsduino is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+ AHRS_Avionicsduino is free software. 
+    
+ MIT License (MIT)
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+Copyright (c) 2023 AvionicsDuino - benjamin.fremond@avionicsduino.com
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
  *****************************************************************************************************************************/ 
 
 //*********************************************************** AHRS Teensy 4.0 / LSM6DSOX+LIS3MDL / NEOM9N / UnavINS **************************************************************
-// Cet AHRS est basé sur une Teensy 4.0, un module IMU 9 DOF Adafruit ADA4517 (LSM6DSOX & LIS3MDL), un GNSS NEO M9N, et le logiciel de fusion UNavINS de BolderFlight (15 State Extended Kalman Filter).
+// Cet AHRS est basé sur une carte Teensy 4.0, un module IMU 9 DOF Adafruit ADA4517 (LSM6DSOX & LIS3MDL), un GNSS NEO M9N, et le logiciel de fusion UNavINS de BolderFlight (15 State Extended Kalman Filter).
 // La bibliothèque UNavIns est téléchargeable ici : https://forum.pjrc.com/threads/48856-uNav-INS/page31/post#759
 // Les dépendances (Eigen et Units) sont disponibles ici : https://github.com/bolderflight/eigen et https://github.com/bolderflight/units
 // La bibliothèque ubx est disponible ici : https://github.com/bolderflight/ublox
